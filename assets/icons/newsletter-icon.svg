@@ -1,0 +1,13 @@
+<svg id="newsletter-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.829" height="36" viewBox="0 0 45.829 36">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1.05" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4d9fd5"/>
+      <stop offset="1" stop-color="#4d519d"/>
+    </linearGradient>
+  </defs>
+  <path id="Caminho_1575" data-name="Caminho 1575" d="M4.02,0H41.809a3.968,3.968,0,0,1,4.02,3.913V32.087A3.968,3.968,0,0,1,41.809,36H4.02A3.968,3.968,0,0,1,0,32.087V3.913A3.968,3.968,0,0,1,4.02,0Z" fill="url(#linear-gradient)"/>
+  <g id="Icon_feather-mail" data-name="Icon feather-mail" transform="translate(13.622 11.317)">
+    <path id="Caminho_1573" data-name="Caminho 1573" d="M3.9,4.167H18.436a1.8,1.8,0,0,1,1.817,1.769V16.547a1.8,1.8,0,0,1-1.817,1.769H3.9a1.8,1.8,0,0,1-1.817-1.769V5.935A1.8,1.8,0,0,1,3.9,4.167Z" transform="translate(-2.083 -4.167)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.083"/>
+    <path id="Caminho_1574" data-name="Caminho 1574" d="M20.253,6.25l-9.085,6.19L2.083,6.25" transform="translate(-2.083 -4.481)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.083"/>
+  </g>
+</svg>

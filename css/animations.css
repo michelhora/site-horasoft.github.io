@@ -1,0 +1,132 @@
+#catraca-act-2 {
+  animation: doRotate 10s infinite linear; 
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#catraca-act-2-2 {
+    animation: doRotate-inverse 10s infinite linear; 
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#catraca-hero-1 { 
+    animation: doRotate-inverse 10s infinite linear; 
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#catraca-hero-2 { 
+    animation: doRotate 10s infinite linear; 
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+#lampadinha {
+    animation: omin 3s ease-in-out infinite alternate;
+    transform-origin: bottom;
+
+}
+
+#foguetin {
+
+    animation: rotateFoguetin 5s ease-in-out infinite;
+    transform-origin: center;
+  
+}
+
+
+#nuvemzinha,#setinha {
+    animation: omin 3s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+ #cabelin-mulher-act2 {
+    animation: cabelin 3s ease-in-out infinite alternate;
+    transform-origin: top;
+}
+
+
+#cabeca {
+animation: cabecinha 2.48s ease-in-out infinite alternate;
+transform-origin: bottom;
+transform-box: fill-box;
+height: 300px;
+}
+
+@keyframes cabelin {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(1deg);
+    }
+}
+
+
+@keyframes omin {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(15deg);
+    }
+}
+
+@keyframes rotateFoguetin {
+ 
+ from {
+      transform: rotateZ(1deg);
+  }
+
+  to {
+      transform: rotateZ(-360deg);
+  }
+ 
+}
+
+
+@keyframes rotateLampadinha {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+
+    }
+}
+@keyframes doRotate-inverse {
+  from {
+      transform: rotateZ(1deg);
+  }
+
+  to {
+      transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes doRotate {
+  from {
+      transform: rotateZ(1deg);
+  }
+
+  to {
+      transform: rotateZ(360deg);
+  }
+}
+
+@keyframes cabecinha {
+     from {
+      transform: rotateZ(5deg);
+  }
+
+  to {
+      transform: rotateZ(-15deg);
+  }
+}
+
+

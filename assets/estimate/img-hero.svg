@@ -1,0 +1,159 @@
+<svg id="img-hero" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="630.656" height="456.934" viewBox="0 0 630.656 456.934">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_42" data-name="Retângulo 42" width="630.656" height="456.934" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Retângulo_35" data-name="Retângulo 35" width="163.333" height="124.902" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Retângulo_36" data-name="Retângulo 36" width="95.163" height="127.12" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Retângulo_38" data-name="Retângulo 38" width="130.541" height="93.946" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="Retângulo_39" data-name="Retângulo 39" width="107.76" height="89.79" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect id="Retângulo_40" data-name="Retângulo 40" width="86.471" height="111.177" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_219" data-name="Grupo 219" clip-path="url(#clip-path)">
+    <g id="Grupo_218" data-name="Grupo 218">
+      <g id="Grupo_217" data-name="Grupo 217" clip-path="url(#clip-path)">
+        <g id="main-box">
+          <path id="img-hero-path_1823" data-name="img-hero-path 1823" d="M48.555,33.305V224.317a17.219,17.219,0,0,0,17.22,17.218H302.16a17.219,17.219,0,0,0,17.22-17.218V33.305a17.222,17.222,0,0,0-17.22-17.22H65.775a17.222,17.222,0,0,0-17.22,17.22m253.834,199.4H65.546a6.375,6.375,0,0,1-6.375-6.375V31.294a6.376,6.376,0,0,1,6.375-6.377H302.389a6.376,6.376,0,0,1,6.375,6.377V226.33a6.375,6.375,0,0,1-6.375,6.375" transform="translate(41.955 13.899)" fill="#fadb96"/>
+          <path id="img-hero-path_1824" data-name="img-hero-path 1824" d="M298.094,192.39a38.969,38.969,0,1,0,38.97,38.97,38.964,38.964,0,0,0-38.97-38.97m0,68.249a29.279,29.279,0,1,1,29.279-29.279,29.276,29.276,0,0,1-29.279,29.279" transform="translate(223.904 166.239)" fill="#fadb96"/>
+          <path id="img-hero-path_1825" data-name="img-hero-path 1825" d="M467.59,86.163v247.91a11.537,11.537,0,0,1-11.535,11.537H78.029a11.535,11.535,0,0,1-11.535-11.537V86.163A26.656,26.656,0,0,1,93.146,59.511H440.938A26.657,26.657,0,0,1,467.59,86.163" transform="translate(57.456 51.422)" fill="#fbf8ff"/>
+          <path id="img-hero-path_1826" data-name="img-hero-path 1826" d="M467.59,86.163v247.91a11.537,11.537,0,0,1-11.535,11.537H78.029a11.535,11.535,0,0,1-11.535-11.537V86.163A26.656,26.656,0,0,1,93.146,59.511H440.938A26.657,26.657,0,0,1,467.59,86.163Z" transform="translate(57.456 51.422)" fill="none" stroke="#a6a4f7" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="img-hero-path_1827" data-name="img-hero-path 1827" d="M467.59,86.163v1.122H66.494V86.163A26.656,26.656,0,0,1,93.146,59.511H440.938A26.657,26.657,0,0,1,467.59,86.163" transform="translate(57.456 51.422)" fill="#6e52ff"/>
+          <path id="img-hero-path_1828" data-name="img-hero-path 1828" d="M129.175,91.1H81.027a5.822,5.822,0,0,1,0-11.645h48.149a5.822,5.822,0,1,1,0,11.645" transform="translate(64.983 68.656)" fill="#ffb450"/>
+          <path id="img-hero-path_1829" data-name="img-hero-path 1829" d="M210.962,88.207H189.749a3.414,3.414,0,1,1,0-6.828h21.213a3.414,3.414,0,1,1,0,6.828" transform="translate(161.006 70.317)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1830" data-name="img-hero-path 1830" d="M232.48,88.207H211.267a3.414,3.414,0,1,1,0-6.828H232.48a3.414,3.414,0,1,1,0,6.828" transform="translate(179.599 70.317)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1831" data-name="img-hero-path 1831" d="M254.321,88.207H233.108a3.414,3.414,0,1,1,0-6.828h21.213a3.414,3.414,0,1,1,0,6.828" transform="translate(198.471 70.317)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1832" data-name="img-hero-path 1832" d="M275.84,88.207H254.627a3.414,3.414,0,1,1,0-6.828H275.84a3.414,3.414,0,1,1,0,6.828" transform="translate(217.065 70.317)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1833" data-name="img-hero-path 1833" d="M246.556,212.389H89.567a4.032,4.032,0,0,1-4.03-4.032V108.476a4.03,4.03,0,0,1,4.03-4.03H246.556a4.032,4.032,0,0,1,4.032,4.03v99.881a4.033,4.033,0,0,1-4.032,4.032" transform="translate(73.91 90.249)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1834" data-name="img-hero-path 1834" d="M284.487,121.465H195.356a3.135,3.135,0,0,1-3.135-3.135V107.58a3.135,3.135,0,0,1,3.135-3.134h89.131a3.136,3.136,0,0,1,3.137,3.134v10.75a3.137,3.137,0,0,1-3.137,3.135" transform="translate(166.093 90.249)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1835" data-name="img-hero-path 1835" d="M259.049,127.4H195.243a3.024,3.024,0,0,1,0-6.047h63.805a3.024,3.024,0,0,1,0,6.047" transform="translate(166.092 104.859)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1836" data-name="img-hero-path 1836" d="M322.9,135.24H195.245a3.023,3.023,0,1,1,0-6.045H322.9a3.023,3.023,0,0,1,0,6.045" transform="translate(166.092 111.634)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1837" data-name="img-hero-path 1837" d="M322.9,143.078H195.245a3.023,3.023,0,1,1,0-6.045H322.9a3.023,3.023,0,0,1,0,6.045" transform="translate(166.092 118.406)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1838" data-name="img-hero-path 1838" d="M322.9,150.919H195.245a3.024,3.024,0,1,1,0-6.047H322.9a3.024,3.024,0,0,1,0,6.047" transform="translate(166.092 125.18)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1839" data-name="img-hero-path 1839" d="M235.469,171.006H198.8a6.58,6.58,0,0,1,0-13.16h36.67a6.58,6.58,0,0,1,0,13.16" transform="translate(166.093 136.39)" fill="#ffb450"/>
+          <path id="img-hero-path_1840" data-name="img-hero-path 1840" d="M467.59,184.34v41.873a11.535,11.535,0,0,1-11.535,11.535H78.029a11.534,11.534,0,0,1-11.535-11.535V184.34Z" transform="translate(57.456 159.283)" fill="#e9e1f4"/>
+          <path id="img-hero-path_1841" data-name="img-hero-path 1841" d="M311.578,200.173v29.169h-187.9V200.173a6.1,6.1,0,0,1,6.1-6.1H305.471a6.106,6.106,0,0,1,6.107,6.1" transform="translate(106.869 167.689)" fill="#6e52ff"/>
+          <path id="img-hero-path_1842" data-name="img-hero-path 1842" d="M252.2,69.261a3.472,3.472,0,1,1-3.471-3.471,3.471,3.471,0,0,1,3.471,3.471" transform="translate(211.923 56.847)" fill="#ffb450"/>
+          <path id="img-hero-path_1843" data-name="img-hero-path 1843" d="M262.386,69.261a3.471,3.471,0,1,1-3.471-3.471,3.469,3.469,0,0,1,3.471,3.471" transform="translate(220.722 56.847)" fill="#ffb450"/>
+          <path id="img-hero-path_1844" data-name="img-hero-path 1844" d="M272.118,69.261a3.472,3.472,0,1,1-3.471-3.471,3.471,3.471,0,0,1,3.471,3.471" transform="translate(229.129 56.847)" fill="#ffb450"/>
+          <path id="img-hero-path_1845" data-name="img-hero-path 1845" d="M467.59,86.163v247.91a11.537,11.537,0,0,1-11.535,11.537H78.029a11.535,11.535,0,0,1-11.535-11.537V86.163A26.656,26.656,0,0,1,93.146,59.511H440.938A26.657,26.657,0,0,1,467.59,86.163Z" transform="translate(57.456 51.422)" fill="none" stroke="#a6a4f7" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <g id="box-picture">
+          <g id="Grupo_204" data-name="Grupo 204" transform="translate(46.477 99.918)" style="mix-blend-mode: multiply;isolation: isolate">
+            <g id="Grupo_203" data-name="Grupo 203">
+              <g id="Grupo_202" data-name="Grupo 202" clip-path="url(#clip-path-3)">
+                <path id="img-hero-path_1846" data-name="img-hero-path 1846" d="M183.464,178.5H29.736a4.8,4.8,0,0,1-4.8-4.8V58.4a4.8,4.8,0,0,1,4.8-4.8H183.464a4.8,4.8,0,0,1,4.8,4.8V173.7a4.8,4.8,0,0,1-4.8,4.8" transform="translate(-24.933 -53.601)" fill="#e9e1f4"/>
+              </g>
+            </g>
+          </g>
+          <path id="img-hero-path_1847" data-name="img-hero-path 1847" d="M178.206,49.077V164.37a4.8,4.8,0,0,1-4.8,4.8H19.671a4.8,4.8,0,0,1-4.8-4.8V49.077a4.8,4.8,0,0,1,4.8-4.8H173.406a4.8,4.8,0,0,1,4.8,4.8" transform="translate(12.848 38.259)" fill="#ffcc4d"/>
+          <path id="img-hero-path_1848" data-name="img-hero-path 1848" d="M178.206,106.49v41.832a4.8,4.8,0,0,1-4.8,4.8H19.671a4.8,4.8,0,0,1-4.8-4.8V108.069S41.106,62.848,59.706,62.848c23.182,0,36.377,52.768,47.892,52.768s26.531-36.3,41.779-36.3c9.14,0,20.885,15.084,28.83,27.174" transform="translate(12.848 54.305)" fill="#ffe7b0"/>
+          <path id="img-hero-path_1849" data-name="img-hero-path 1849" d="M101.107,63.074A10.638,10.638,0,1,1,90.468,52.436a10.639,10.639,0,0,1,10.638,10.638" transform="translate(68.979 45.308)" fill="#ffe7b0"/>
+        </g>
+        <g id="box-letter">
+          <g id="Grupo_207" data-name="Grupo 207" transform="translate(476.166 199.892)" style="mix-blend-mode: multiply;isolation: isolate">
+            <g id="Grupo_206" data-name="Grupo 206">
+              <g id="Grupo_205" data-name="Grupo 205" clip-path="url(#clip-path-4)">
+                <path id="img-hero-path_1850" data-name="img-hero-path 1850" d="M347.516,234.354h-88.98a3.091,3.091,0,0,1-3.092-3.091V110.325a3.091,3.091,0,0,1,3.092-3.091h88.98a3.09,3.09,0,0,1,3.091,3.091V231.264a3.09,3.09,0,0,1-3.091,3.091" transform="translate(-255.444 -107.234)" fill="#e9e1f4"/>
+              </g>
+            </g>
+          </g>
+          <path id="img-hero-path_1851" data-name="img-hero-path 1851" d="M355.943,226.745h-88.98a3.093,3.093,0,0,1-3.092-3.093V102.716a3.091,3.091,0,0,1,3.092-3.091h88.98a3.09,3.09,0,0,1,3.091,3.091V223.653a3.091,3.091,0,0,1-3.091,3.093" transform="translate(228.004 86.083)" fill="#4c3edb"/>
+          <rect id="Retângulo_37" data-name="Retângulo 37" width="62.07" height="8.388" transform="translate(508.42 199.515)" fill="#9a90fc"/>
+          <path id="img-hero-path_1852" data-name="img-hero-path 1852" d="M310.6,164.926h-26a4.689,4.689,0,1,1,0-9.378h26a4.689,4.689,0,1,1,0,9.378" transform="translate(241.859 134.405)" fill="#ffcc4d"/>
+          <path id="img-hero-path_1853" data-name="img-hero-path 1853" d="M302.837,122.043H277.6a1.829,1.829,0,0,1-1.829-1.827V119.9a1.828,1.828,0,0,1,1.829-1.827h25.234a1.825,1.825,0,0,1,1.827,1.827v.311a1.826,1.826,0,0,1-1.827,1.827" transform="translate(238.289 102.028)" fill="#9a90fc"/>
+          <path id="img-hero-path_1854" data-name="img-hero-path 1854" d="M335.483,127.277H277.6a1.827,1.827,0,0,1-1.827-1.827v-.311a1.829,1.829,0,0,1,1.827-1.829h57.881a1.828,1.828,0,0,1,1.827,1.829v.311a1.826,1.826,0,0,1-1.827,1.827" transform="translate(238.289 106.549)" fill="#9a90fc"/>
+          <path id="img-hero-path_1855" data-name="img-hero-path 1855" d="M335.483,132.509H277.6a1.827,1.827,0,0,1-1.827-1.827v-.311a1.829,1.829,0,0,1,1.827-1.829h57.881a1.828,1.828,0,0,1,1.827,1.829v.311a1.826,1.826,0,0,1-1.827,1.827" transform="translate(238.289 111.07)" fill="#9a90fc"/>
+          <path id="img-hero-path_1856" data-name="img-hero-path 1856" d="M272.235,120.06a1.983,1.983,0,1,1-1.983-1.982,1.985,1.985,0,0,1,1.983,1.982" transform="translate(231.803 102.028)" fill="#9a90fc"/>
+          <path id="img-hero-path_1857" data-name="img-hero-path 1857" d="M302.837,139.423H277.6a1.829,1.829,0,0,1-1.829-1.827v-.311a1.831,1.831,0,0,1,1.829-1.829h25.234a1.828,1.828,0,0,1,1.827,1.829v.311a1.826,1.826,0,0,1-1.827,1.827" transform="translate(238.289 117.044)" fill="#9a90fc"/>
+          <path id="img-hero-path_1858" data-name="img-hero-path 1858" d="M335.483,144.655H277.6a1.826,1.826,0,0,1-1.827-1.825v-.311a1.831,1.831,0,0,1,1.827-1.83h57.881a1.829,1.829,0,0,1,1.827,1.83v.311a1.825,1.825,0,0,1-1.827,1.825" transform="translate(238.289 121.565)" fill="#9a90fc"/>
+          <path id="img-hero-path_1859" data-name="img-hero-path 1859" d="M335.483,149.888H277.6a1.827,1.827,0,0,1-1.827-1.827v-.311a1.829,1.829,0,0,1,1.827-1.829h57.881a1.828,1.828,0,0,1,1.827,1.829v.311a1.826,1.826,0,0,1-1.827,1.827" transform="translate(238.289 126.086)" fill="#9a90fc"/>
+          <path id="img-hero-path_1860" data-name="img-hero-path 1860" d="M272.235,137.439a1.983,1.983,0,1,1-1.983-1.982,1.985,1.985,0,0,1,1.983,1.982" transform="translate(231.803 117.045)" fill="#9a90fc"/>
+          <path id="img-hero-path_1861" data-name="img-hero-path 1861" d="M364.455,102.263l-45.523,37.544a10.181,10.181,0,0,1-1.126.815,11.416,11.416,0,0,1-3.126,1.411l-7.367,2.086a1.057,1.057,0,0,1-1.232-1.5l3.445-6.836a11.938,11.938,0,0,1,1.952-2.759,10.546,10.546,0,0,1,1.053-.982l45.3-37.365a5.219,5.219,0,0,1,7.121.3,5.03,5.03,0,0,1-.5,7.283" transform="translate(264.375 80.725)" fill="#ffcc4d"/>
+          <path id="img-hero-path_1862" data-name="img-hero-path 1862" d="M317.806,122.262a11.423,11.423,0,0,1-3.126,1.413l-4.312,1.228-3.055.856a1.057,1.057,0,0,1-1.232-1.5l1.43-2.826,2.017-4.01a11.918,11.918,0,0,1,1.95-2.757,8.9,8.9,0,0,1,6.329,7.592" transform="translate(264.374 99.083)" fill="#ffe7b0"/>
+          <path id="img-hero-path_1863" data-name="img-hero-path 1863" d="M310.368,121.767l-3.055.856a1.057,1.057,0,0,1-1.232-1.5l1.43-2.826c1.363.14,3.176.807,2.858,3.467" transform="translate(264.374 102.22)" fill="#ffcc4d"/>
+        </g>
+        <g id="box-play">
+          <g id="Grupo_210" data-name="Grupo 210" transform="translate(307.421 9.909)" style="mix-blend-mode: multiply;isolation: isolate">
+            <g id="Grupo_209" data-name="Grupo 209">
+              <g id="Grupo_208" data-name="Grupo 208" clip-path="url(#clip-path-5)">
+                <path id="img-hero-path_1864" data-name="img-hero-path 1864" d="M295.46,12.8V91.779a7.485,7.485,0,0,1-7.484,7.484H172.4a7.484,7.484,0,0,1-7.482-7.484V12.8A7.484,7.484,0,0,1,172.4,5.316H287.976A7.485,7.485,0,0,1,295.46,12.8" transform="translate(-164.919 -5.316)" fill="#e9e1f4"/>
+              </g>
+            </g>
+          </g>
+          <path id="img-hero-path_1865" data-name="img-hero-path 1865" d="M290.388,7.484V86.463a7.485,7.485,0,0,1-7.484,7.484H167.329a7.484,7.484,0,0,1-7.482-7.484V7.484A7.484,7.484,0,0,1,167.329,0H282.9a7.485,7.485,0,0,1,7.484,7.484" transform="translate(138.119)" fill="#6e52ff"/>
+          <path id="img-hero-path_1866" data-name="img-hero-path 1866" d="M290.388,40.717V51.281a7.485,7.485,0,0,1-7.484,7.484H167.329a7.484,7.484,0,0,1-7.482-7.484V40.717Z" transform="translate(138.119 35.182)" fill="#4c3edb"/>
+          <path id="img-hero-path_1867" data-name="img-hero-path 1867" d="M224.851,47.128a4.182,4.182,0,0,0,.733,2.362H167.192a2.362,2.362,0,0,1,0-4.724h58.392a4.182,4.182,0,0,0-.733,2.362" transform="translate(142.427 38.681)" fill="#6e52ff"/>
+          <path id="img-hero-path_1868" data-name="img-hero-path 1868" d="M217.209,47.128a2.366,2.366,0,0,1-2.375,2.362H197.761a4.182,4.182,0,0,1,0-4.724h17.073a2.374,2.374,0,0,1,2.375,2.362" transform="translate(170.248 38.681)" fill="#8f83ff"/>
+          <path id="img-hero-path_1869" data-name="img-hero-path 1869" d="M205.413,47.979a4.209,4.209,0,1,1-.733-2.362,4.182,4.182,0,0,1,.733,2.362" transform="translate(170.248 37.83)" fill="#fff"/>
+          <path id="img-hero-path_1870" data-name="img-hero-path 1870" d="M202.291,46.988a2.059,2.059,0,1,1-2.058-2.058,2.057,2.057,0,0,1,2.058,2.058" transform="translate(171.236 38.823)" fill="#6e52ff"/>
+          <path id="img-hero-path_1871" data-name="img-hero-path 1871" d="M217.3,49.3V45.358a.692.692,0,0,1,1-.619l3.939,1.97a.69.69,0,0,1,0,1.236l-3.939,1.97a.692.692,0,0,1-1-.619" transform="translate(187.765 38.594)" fill="#8f83ff"/>
+          <path id="img-hero-path_1872" data-name="img-hero-path 1872" d="M222.988,48.056V45.644c0-.315.261-.52.485-.38l1.9,1.206a.482.482,0,0,1,0,.759l-1.9,1.206c-.224.142-.485-.063-.485-.378" transform="translate(192.678 39.072)" fill="#8f83ff"/>
+          <path id="img-hero-path_1873" data-name="img-hero-path 1873" d="M224.369,48.056V45.644c0-.315.261-.52.483-.38l1.905,1.206a.482.482,0,0,1,0,.759l-1.905,1.206c-.222.142-.483-.063-.483-.378" transform="translate(193.871 39.072)" fill="#8f83ff"/>
+          <path id="img-hero-path_1874" data-name="img-hero-path 1874" d="M215.9,48.056V45.644c0-.315-.261-.52-.483-.38l-1.905,1.206a.482.482,0,0,0,0,.759l1.905,1.206c.222.142.483-.063.483-.378" transform="translate(184.327 39.072)" fill="#8f83ff"/>
+          <path id="img-hero-path_1875" data-name="img-hero-path 1875" d="M214.517,48.056V45.644c0-.315-.263-.52-.485-.38l-1.9,1.206a.48.48,0,0,0,0,.759l1.9,1.206c.222.142.485-.063.485-.378" transform="translate(183.134 39.072)" fill="#8f83ff"/>
+          <path id="img-hero-path_1876" data-name="img-hero-path 1876" d="M228.9,31.779A23.255,23.255,0,1,1,205.64,8.523,23.256,23.256,0,0,1,228.9,31.779" transform="translate(157.595 7.364)" fill="#fbf8ff"/>
+          <path id="img-hero-path_1877" data-name="img-hero-path 1877" d="M191.565,32.4V18.085a2,2,0,0,1,3.083-1.672l11,7.156a2,2,0,0,1,0,3.344l-11,7.156a2,2,0,0,1-3.083-1.672" transform="translate(165.526 13.9)" fill="#6e52ff"/>
+        </g>
+        <g id="box-marketing">
+          <g id="Grupo_213" data-name="Grupo 213" transform="translate(48.675 340.852)" style="mix-blend-mode: multiply;isolation: isolate">
+            <g id="Grupo_212" data-name="Grupo 212">
+              <g id="Grupo_211" data-name="Grupo 211" clip-path="url(#clip-path-6)">
+                <path id="img-hero-path_1878" data-name="img-hero-path 1878" d="M124.386,272.643H35.6a9.486,9.486,0,0,1-9.486-9.484v-70.82a9.486,9.486,0,0,1,9.486-9.484h88.788a9.486,9.486,0,0,1,9.486,9.484v70.82a9.486,9.486,0,0,1-9.486,9.484" transform="translate(-26.112 -182.853)" fill="#e9e1f4"/>
+              </g>
+            </g>
+          </g>
+          <path id="img-hero-path_1879" data-name="img-hero-path 1879" d="M117.927,265.826H29.139a9.486,9.486,0,0,1-9.486-9.486V185.522a9.486,9.486,0,0,1,9.486-9.486h88.788a9.485,9.485,0,0,1,9.486,9.486V256.34a9.485,9.485,0,0,1-9.486,9.486" transform="translate(16.982 152.108)" fill="#fcfaff"/>
+          <path id="img-hero-path_1880" data-name="img-hero-path 1880" d="M46.761,226.895H42.625a1.233,1.233,0,0,1-1.2-1.5l4.477-19.8a1.233,1.233,0,0,1,1.2-.96h6.949a1.234,1.234,0,0,1,1.2,1.5L51.4,223.193a4.75,4.75,0,0,1-4.634,3.7" transform="translate(35.765 176.818)" fill="#6e52ff"/>
+          <path id="img-hero-path_1881" data-name="img-hero-path 1881" d="M65.379,207.872H61.455V194.4h3.924a6.738,6.738,0,0,1,0,13.475" transform="translate(53.102 167.973)" fill="#ffcc4d"/>
+          <path id="img-hero-path_1882" data-name="img-hero-path 1882" d="M41.665,219.465H52.251V190.3H41.665a7.773,7.773,0,0,0-7.773,7.771v13.624a7.773,7.773,0,0,0,7.773,7.773" transform="translate(29.285 164.429)" fill="#ffcc4d"/>
+          <path id="img-hero-path_1883" data-name="img-hero-path 1883" d="M43.741,193.009l35.483-5.814a2.907,2.907,0,0,1,3.376,2.869v34.655a2.907,2.907,0,0,1-3.344,2.874l-35.514-5.415Z" transform="translate(37.795 161.716)" fill="#ffe7b0"/>
+          <path id="img-hero-path_1884" data-name="img-hero-path 1884" d="M44.833,194.762H37.726a.79.79,0,0,1,0-1.581h7.108a.79.79,0,0,1,0,1.581" transform="translate(31.916 166.922)" fill="#ffe7b0"/>
+          <path id="img-hero-path_1885" data-name="img-hero-path 1885" d="M44.833,196.351H37.726a.79.79,0,0,1,0-1.581h7.108a.79.79,0,0,1,0,1.581" transform="translate(31.916 168.295)" fill="#ffe7b0"/>
+        </g>
+        <path id="img-hero-path_1889" data-name="img-hero-path 1889" d="M38.9,151.7a3.449,3.449,0,1,1,3.45-3.45,3.451,3.451,0,0,1-3.45,3.45" transform="translate(30.633 125.119)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1890" data-name="img-hero-path 1890" d="M30.038,151.7a3.449,3.449,0,1,1,3.45-3.45,3.451,3.451,0,0,1-3.45,3.45" transform="translate(22.974 125.119)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1891" data-name="img-hero-path 1891" d="M21.176,151.7a3.449,3.449,0,1,1,3.45-3.45,3.451,3.451,0,0,1-3.45,3.45" transform="translate(15.317 125.119)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1892" data-name="img-hero-path 1892" d="M12.312,151.7a3.449,3.449,0,1,1,3.45-3.45,3.451,3.451,0,0,1-3.45,3.45" transform="translate(7.657 125.119)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1893" data-name="img-hero-path 1893" d="M3.45,151.7a3.449,3.449,0,1,1,3.45-3.45,3.451,3.451,0,0,1-3.45,3.45" transform="translate(0 125.119)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1894" data-name="img-hero-path 1894" d="M44.526,159.59a3.449,3.449,0,1,1,3.449-3.45,3.451,3.451,0,0,1-3.449,3.45" transform="translate(35.493 131.936)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1895" data-name="img-hero-path 1895" d="M35.663,159.59a3.449,3.449,0,1,1,3.45-3.45,3.451,3.451,0,0,1-3.45,3.45" transform="translate(27.834 131.936)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1896" data-name="img-hero-path 1896" d="M26.8,159.59a3.449,3.449,0,1,1,3.45-3.45,3.449,3.449,0,0,1-3.45,3.45" transform="translate(20.177 131.936)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1897" data-name="img-hero-path 1897" d="M17.937,159.59a3.449,3.449,0,1,1,3.45-3.45,3.451,3.451,0,0,1-3.45,3.45" transform="translate(12.518 131.936)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1898" data-name="img-hero-path 1898" d="M9.074,159.59a3.449,3.449,0,1,1,3.449-3.45,3.451,3.451,0,0,1-3.449,3.45" transform="translate(4.86 131.936)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1899" data-name="img-hero-path 1899" d="M49.615,167.478a3.449,3.449,0,1,1,3.45-3.45,3.45,3.45,0,0,1-3.45,3.45" transform="translate(39.89 138.752)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1900" data-name="img-hero-path 1900" d="M40.752,167.478a3.449,3.449,0,1,1,3.449-3.45,3.45,3.45,0,0,1-3.449,3.45" transform="translate(32.232 138.752)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1901" data-name="img-hero-path 1901" d="M31.889,167.478a3.449,3.449,0,1,1,3.45-3.45,3.45,3.45,0,0,1-3.45,3.45" transform="translate(24.573 138.752)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1902" data-name="img-hero-path 1902" d="M23.026,167.478a3.449,3.449,0,1,1,3.45-3.45,3.45,3.45,0,0,1-3.45,3.45" transform="translate(16.915 138.752)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1903" data-name="img-hero-path 1903" d="M14.163,167.478a3.449,3.449,0,1,1,3.45-3.45,3.45,3.45,0,0,1-3.45,3.45" transform="translate(9.257 138.752)" fill="#a6a4f7"/>
+        <path id="img-hero-path_1904" data-name="img-hero-path 1904" d="M161.07,233.8H106.626a3.889,3.889,0,0,1,0-7.779H161.07a3.889,3.889,0,0,1,0,7.779" transform="translate(88.773 195.3)" fill="#fadb96"/>
+        <path id="img-hero-path_1905" data-name="img-hero-path 1905" d="M161.07,244.232H106.626a3.888,3.888,0,0,1,0-7.777H161.07a3.888,3.888,0,1,1,0,7.777" transform="translate(88.773 204.314)" fill="#fadb96"/>
+        <path id="img-hero-path_1906" data-name="img-hero-path 1906" d="M337.254,57.185l11.9-2.244V44.278L337.255,42.23l0,0a35.317,35.317,0,0,0-5.035-12.115l6.828-10-7.54-7.54-9.865,6.966a35.435,35.435,0,0,0-12.126-5.022h0L307.272,2.622H296.607l-2.047,11.891h0a35.377,35.377,0,0,0-12.116,5.039l0,0-10-6.828-7.54,7.54,6.972,9.87a35.4,35.4,0,0,0-5.024,12.115l0,.007L254.951,44.5V55.165l11.895,2.047a35.4,35.4,0,0,0,5.035,12.126l-6.826,10,7.542,7.54L282.47,79.9a35.182,35.182,0,0,0,12.113,5.02l0,0,2.243,11.9H307.5l2.049-11.9a35.358,35.358,0,0,0,12.118-5.031l10,6.826,7.54-7.54-6.972-9.868A35.139,35.139,0,0,0,337.254,57.185Zm-35.2,14.609a22.07,22.07,0,1,1,22.061-22.078A22.071,22.071,0,0,1,302.05,71.794Z" transform="translate(220.296 2.266)" fill="none" stroke="#a6a4f7" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="img-hero-path_1907" data-name="img-hero-path 1907" d="M341.608,88.859l6.86,2.4,3.2-5.544-5.57-4.636v0a21.223,21.223,0,0,0,1.018-7.812l6.554-3.15-1.659-6.183-7.22.662a21.236,21.236,0,0,0-4.8-6.25l0,0,2.4-6.856-5.546-3.2-4.634,5.57,0,0a21.182,21.182,0,0,0-7.812-1.016h0l-3.15-6.552-6.183,1.659.662,7.223a21.256,21.256,0,0,0-6.248,4.793l0,0-6.858-2.4-3.2,5.546,5.57,4.634a21.251,21.251,0,0,0-1.021,7.816l-6.548,3.148,1.657,6.185,7.227-.664a21.091,21.091,0,0,0,4.793,6.246l0,0-2.4,6.862,5.544,3.2,4.636-5.572a21.23,21.23,0,0,0,7.812,1.022l3.15,6.552,6.185-1.659-.664-7.223A21.1,21.1,0,0,0,341.608,88.859Zm-22.691-2.969a13.251,13.251,0,1,1,18.1-4.858A13.254,13.254,0,0,1,318.916,85.889Z" transform="translate(256.991 39.995)" fill="none" stroke="#fadb96" stroke-miterlimit="10" stroke-width="1"/>
+        <g id="box-code">
+          <g id="Grupo_216" data-name="Grupo 216" transform="translate(360.487 345.758)" style="mix-blend-mode: multiply;isolation: isolate">
+            <g id="Grupo_215" data-name="Grupo 215">
+              <g id="Grupo_214" data-name="Grupo 214" clip-path="url(#clip-path-7)">
+                <path id="img-hero-path_1886" data-name="img-hero-path 1886" d="M196.667,185.485h65.958l17.233,17.384v91.123a2.67,2.67,0,0,1-2.669,2.669H196.055a2.67,2.67,0,0,1-2.669-2.669V188.764a3.279,3.279,0,0,1,3.281-3.279" transform="translate(-193.388 -185.485)" fill="#e9e1f4"/>
+              </g>
+            </g>
+          </g>
+          <path id="img-hero-path_1887" data-name="img-hero-path 1887" d="M191.43,180.249h65.958l17.233,17.384v91.123a2.669,2.669,0,0,1-2.669,2.669H190.82a2.669,2.669,0,0,1-2.669-2.669V183.528a3.278,3.278,0,0,1,3.279-3.279" transform="translate(162.576 155.748)" fill="#ffcc4d"/>
+          <path id="img-hero-path_1888" data-name="img-hero-path 1888" d="M225.294,180.249V194.66a2.975,2.975,0,0,0,2.975,2.973h14.258Z" transform="translate(194.67 155.748)" fill="#ffe7b0"/>
+          <path id="img-hero-path_1908" data-name="img-hero-path 1908" d="M207.722,226.662l-9.924-9.391,9.924-9.434H212.4l-9.923,9.434,9.923,9.391Z" transform="translate(170.912 179.586)" fill="#6e52ff"/>
+          <path id="img-hero-path_1909" data-name="img-hero-path 1909" d="M217.649,205.644l-6.265,25.443h-2.011l6.241-25.443Z" transform="translate(180.913 177.691)" fill="#6e52ff"/>
+          <path id="img-hero-path_1910" data-name="img-hero-path 1910" d="M217.487,207.837h4.677l9.922,9.434-9.922,9.391h-4.677l9.924-9.391Z" transform="translate(187.925 179.586)" fill="#6e52ff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
