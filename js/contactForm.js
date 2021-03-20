@@ -1,89 +1,77 @@
-class ConfirmDialog {
-  constructor({ questionText, trueButtonText, falseButtonText, isSuccess }) {
-    this.questionText = questionText || "Are you sure?";
-    this.trueButtonText = trueButtonText || "Yes";
-    this.falseButtonText = falseButtonText || "No";
-    this.isSuccess = isSuccess;
+class contactForm {
+  // var name = document.querySelector('.customer-name').value;
+  //   var email = document.querySelector('.customer-email').value;
+  //   var message = document.querySelector('.customer-message').value;
 
-    this.dialog = undefined;
-    this.trueButton = undefined;
-    this.falseButton = undefined;
-    this.parent = document.body;
+  //   var client = {
+  //     to: `${name} <${email}>, Hora-Soft <contato@hora-soft.com>`,
+  //     name: name,
+  //     email: email,
+  //     message: message ,
+  //     subject: 'Obrigado pelo contato!',
+  //     template: 'partials/contact',
+  //     context: {
+  //       client: name
+  //         }
+  //   }
 
-    this._createDialog();
-    this._appendDialog();
+  //   var xhr = new XMLHttpRequest();
+  //     xhr.open("POST", "http://api.hora-soft.com/" , true);
+  //     xhr.setRequestHeader('Content-Type', 'application/json');
+  //      await xhr.send(JSON.stringify({
+  //         client
+  //     }));
+
+  //   xhr.onerror = function () {
+  //     const dialog =  new ConfirmDialog({
+  //           trueButtonText: "Beleza!",
+  //           falseButtonText: undefined,
+  //           questionText: "Estamos passando por manutenções, tente novamente mais tarde. :(",
+  //           isSuccess: false,
+  //         });
+  //         dialog.confirm();
+  //   }
+
+  //     xhr.onload = function () {
+  //       if (xhr.status === 200) {
+  //         const dialog =  new ConfirmDialog({
+  //           trueButtonText: "Beleza!",
+  //           falseButtonText: undefined,
+  //           questionText: "Formulário enviado, em breve entraremos em contato por e-mail!",
+  //           isSuccess: true,
+  //         });
+  //         dialog.confirm();
+  //       }
+
+  //       else if (xhr.status === 400) {
+  //         const dialog =  new ConfirmDialog({
+  //           trueButtonText: "Beleza!",
+  //           falseButtonText: undefined,
+  //           questionText: "Verifique os dados inseridos e tente novamente!",
+  //           isSuccess: false,
+  //         });
+  //         dialog.confirm();
+  //       }
+  //     }
+  constructor({ customerName, customerEmail, customerMessage }) {
+    this.customerName =
+      customerName || document.querySelector(".customer-name").value;
+    this.customerEmail =
+      customerEmail || document.querySelector(".customer-email").value;
+    this.customerMessage =
+      customerMessage || document.querySelector(".customer-message").value;
+
+    this._isFilled();
+    this._sendContact();
   }
 
-  _createDialog() {
-    this.dialog = document.createElement("dialog");
-    this.dialog.classList.add("confirm-dialog");
-
-    const icon = document.createElement("img");
-    console.log(this.isSuccess);
-    icon.src = this.isSuccess
-      ? "http://hora-soft.com/assets/success-icon.svg"
-      : "http://hora-soft.com/assets/failure-icon.svg";
-    icon.width = 50;
-    icon.height = 50;
-    this.dialog.appendChild(icon);
-
-    const question = document.createElement("div");
-    question.textContent = this.questionText;
-    question.classList.add("confirm-dialog-question");
-    this.dialog.appendChild(question);
-
-    const buttonGroup = document.createElement("div");
-    buttonGroup.classList.add("confirm-dialog-button-group");
-    this.dialog.appendChild(buttonGroup);
-
-    if (this.falseButton !== undefined) {
-      this.falseButton = document.createElement("button");
-      this.falseButton.classList.add(
-        "confirm-dialog-button",
-        "confirm-dialog-button--false"
-      );
-      this.falseButton.type = "button";
-      this.falseButton.textContent = this.falseButtonText;
-      buttonGroup.appendChild(this.falseButton);
+  _isFilled() {
+    if (
+      this.CustomerName ||
+      this.CustomerEmail ||
+      this.customerMessage === ""
+    ) {
     }
-    this.trueButton = document.createElement("button");
-    this.trueButton.classList.add(
-      "confirm-dialog-button",
-      "confirm-dialog-button--true"
-    );
-    this.trueButton.type = "button";
-    this.trueButton.textContent = this.trueButtonText;
-    buttonGroup.appendChild(this.trueButton);
-  }
-
-  _appendDialog() {
-    this.parent.appendChild(this.dialog);
-  }
-
-  _destroy() {
-    this.parent.removeChild(this.dialog);
-    delete this;
-  }
-
-  confirm() {
-    return new Promise((resolve, reject) => {
-      const somethingWentWrongUponCreation =
-        !this.dialog || !this.trueButton || !this.falseButton;
-      if (somethingWentWrongUponCreation) {
-        reject("Something went wrong upon modal creation");
-      }
-
-      this.dialog.showModal();
-
-      this.trueButton.addEventListener("click", () => {
-        resolve(true);
-        this._destroy();
-      });
-
-      this.falseButton.addEventListener("click", () => {
-        resolve(false);
-        this._destroy();
-      });
-    });
+    return false;
   }
 }
