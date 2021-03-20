@@ -380,18 +380,18 @@ svg {
     display: flex;
     flex-direction: column;
     width: 100%;
-    animation: .2s ease-out 0s 1 slideInFromLeft;
+    animation: .4s ease-out 0s 1 slideInFromLeft;
 }
 #main-box, .container-services {
 
-    animation: .2s ease-out 0s 1 slideInFromAbove;
+    animation: .8s ease-out 0s 1 slideInFromAbove;
 }
 
 #box-code, #box-marketing, .hora-soft-header {
-    animation: .2s ease 0s 1 slideInFromLeft;
+    animation: .4s ease 0s 1 slideInFromLeft;
 }
  #box-play, #box-picture, #box-letter {
-     animation: .2s ease 0s 1 slideInFromRight;
+     animation: .8s ease 0s 1 slideInFromRight;
  }
 
 @keyframes slideInFromLeft {
@@ -441,8 +441,8 @@ svg {
     font-size: 16px;
     letter-spacing: -0.5px;
     font-weight: 300;
-    margin-block-start: 24px;
-    margin-block-end: 0em;
+    margin-block-start: 32px;
+    margin-block-end: 32px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     width: 100%;
