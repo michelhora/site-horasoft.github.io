@@ -42,6 +42,7 @@
             <a href="/" alt="logo hora-soft"><img class="logo" src="assets/logo/Logo.svg" alt="logo hora-soft"></a>
            
                 <ul>
+                    <li><a href="#section-start">Início</a></li>
                     <li><a href="#services">Serviços</a></li>
                     <li><a href="#container-how-we-work">Nossos valores</a></li>
                     <li><a href="#container-how-we-work2">Como trabalhamos</a></li>
@@ -59,7 +60,8 @@
                 </div>   
         </div>
     </header>
-       <div class="hero" id="section">
+    <section>
+       <div class="hero" id="section-start">
            <div class="hero-content">
                 <div class="column-1">
                     <h1>Transforme sua ideia em software</h1>
@@ -235,6 +237,7 @@
                 </div>
            </div>
        </div>
+      </section>
        <div class="divisoria" id="services"></div>
        <section>
          <div class="title-box">
@@ -1162,9 +1165,7 @@
     } 
 
     var xhr = new XMLHttpRequest();
-      // xhr.open("POST", "http://localhost:3333/" , true);
-      // xhr.open("POST", "http://192.168.1.100:3333/" , true);
-      xhr.open("POST", "http://177.37.165.48:3333/" , true);
+      xhr.open("POST", "http://api.hora-soft.com/" , true);
       xhr.setRequestHeader('Content-Type', 'application/json');
        await xhr.send(JSON.stringify({
           client
@@ -1174,7 +1175,7 @@
       const dialog =  new ConfirmDialog({
             trueButtonText: "Beleza!",
             falseButtonText: undefined,
-            questionText: "Estamos passando por manutenções, tente novamente mais tarde. ={",
+            questionText: "Estamos passando por manutenções, tente novamente mais tarde. :(",
             isSuccess: false,
           });
           dialog.confirm();
