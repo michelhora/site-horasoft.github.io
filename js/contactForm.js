@@ -61,17 +61,30 @@ class contactForm {
     this.customerMessage =
       customerMessage || document.querySelector(".customer-message").value;
 
-    this._isFilled();
-    this._sendContact();
+    this.xhr = new XMLHttpRequest();
+    this.button = undefined;
+    this._createContactForm();
+    this._sendContactForm();
   }
 
-  _isFilled() {
-    if (
-      this.CustomerName ||
-      this.CustomerEmail ||
-      this.customerMessage === ""
-    ) {
-    }
-    return false;
+  _contactFrom() {
+    this.button = document.querySelector(".button-contact-us");
+    return this.button.getAttribute("data-from");
+  }
+
+  _createClient(_contactFrom) {
+    const client = {
+      to: `${this.customerName} <${this.customerEmail}>, Hora-Soft <michel@hora-soft.com>`,
+      name: this.customerName,
+      email: this.customerEmail,
+      message: this.customerMessage,
+      subject: "Obrigado pelo contato!",
+      template: "partials/contact",
+      context: {
+        client: this.customerName,
+      },
+    };
+
+    return client;
   }
 }

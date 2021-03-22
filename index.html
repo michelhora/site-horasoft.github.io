@@ -1068,7 +1068,7 @@
                   <input class="customer-email" placeholder="Seu e-mail de contato" type="text">
                 </div>
                   <textarea class="customer-message" placeholder="E enfim... sua mensagem! :D" type="text"></textarea>
-                <button class="button-contact-us" type="submit" onclick="sendContactForm(this)">Enviar</button>   
+                <button class="button-contact-us" data-from="contact" type="submit" onclick="sendContactForm(this)">Enviar</button>   
             </div>
           </div>
         </section>
@@ -1083,7 +1083,7 @@
                         <h3 class="newsletter-title">Newsletter</h3>
                         <p class="newsletter-subtitle">Cadastre-se em nossa newsletter para receber em seu e-mail nossas novidades e dicas uteis para seu negócio</p>
                         <input class="newsletter-input" type="text" placeholder="Digite seu e-mail">
-                            <svg class="newsletter-svg" id="newsletter-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.829" height="36" viewBox="0 0 45.829 36">
+                            <svg style="cursor: pointer;" onclick="sendContactForm(this)" class="newsletter-svg" data-from="newsletter" id="newsletter-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.829" height="36" viewBox="0 0 45.829 36">
                                 <defs>
                                     <linearGradient id="linear-gradient-newsletter" y1="0.5" x2="1.05" y2="0.5" gradientUnits="objectBoundingBox">
                                     <stop offset="0" stop-color="#4d9fd5"/>
@@ -1153,7 +1153,7 @@
     var message = document.querySelector('.customer-message').value;
 
     var client = {
-      to: `${name} <${email}>, Hora-Soft <contato@hora-soft.com>`,
+      to: `${name} <${email}>, Hora-Soft <michel@hora-soft.com>`,
       name: name,
       email: email,
       message: message ,
@@ -1165,7 +1165,7 @@
     } 
 
     var xhr = new XMLHttpRequest();
-      xhr.open("POST", "http://api.hora-soft.com/" , true);
+      xhr.open("POST", "https://api.hora-soft.com/" , true);
       xhr.setRequestHeader('Content-Type', 'application/json');
        await xhr.send(JSON.stringify({
           client
