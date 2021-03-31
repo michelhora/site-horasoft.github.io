@@ -9,17 +9,12 @@
     <link rel="stylesheet" href="css/animations.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="jquery.smoothscroll.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-399965110"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'AW-399965110');
     </script>
     <!-- Event snippet for Contato Teste conversion page -->
@@ -49,7 +44,7 @@
 
       <div class="design">
         <p class="text-service-box">Design &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="200"  class="service-box" id="logo-creation">
+        <div onclick="serviceClick(this)" data-parent="design" data-clicked="false" data-value="200"  class="service-box" id="logoCreation">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -59,7 +54,7 @@
           </div>
         </div>
 
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="400" class="service-box" id="web-prototyping">
+        <div onclick="serviceClick(this)" data-parent="design" data-clicked="false"  data-value="400" class="service-box" id="webPrototyping">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -69,7 +64,7 @@
           </div>
         </div>
 
-        <div onclick="serviceClick(this)" data-clicked="false"  class="service-box" data-value="400" id="mobile-prototyping">
+        <div onclick="serviceClick(this)" data-parent="design" data-clicked="false"  class="service-box" data-value="400" id="mobilePrototyping">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -82,7 +77,7 @@
 
       <div class="general-development">
         <p class="text-service-box">Desenvolvimento Web</p>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="400" class="service-box" id="website-creation">
+        <div onclick="serviceClick(this)" data-parent="webDevelopment" data-clicked="false" data-value="400" class="service-box" id="websiteCreation">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -91,7 +86,7 @@
              <p>Website</p>
           </div>
         </div>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="3000" class="service-box" id="software-web">
+        <div onclick="serviceClick(this)" data-parent="webDevelopment"  data-clicked="false" data-value="3000" class="service-box" id="softwareWeb">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -100,7 +95,7 @@
              <p>Software Web</p>
           </div>
         </div>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="3000" class="service-box" id="software-desktop">
+        <div onclick="serviceClick(this)" data-parent="webDevelopment" data-clicked="false" data-value="3000" class="service-box" id="softwareDesktop">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -112,7 +107,7 @@
       </div>
       <div class="mobile-development">
         <p class="text-service-box">Desenvolvimento mobile</p>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="2000" class="service-box" id="app-android">
+        <div onclick="serviceClick(this)" data-parent="mobileDevelopment" data-clicked="false" data-value="2000" class="service-box" id="appAndroid">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -121,7 +116,7 @@
              <p>App Android</p>
           </div>
         </div>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="3000" class="service-box" id="app-ios">
+        <div onclick="serviceClick(this)" data-parent="mobileDevelopment" data-clicked="false" data-value="3000" class="service-box" id="appIos">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -136,7 +131,7 @@
 
       <div class="traffic">
         <p class="text-service-box">Trafego de Dados</p>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="300" class="service-box" id="customer-segmentation">
+        <div onclick="serviceClick(this)" data-parent="dataTraffic" data-clicked="false" data-value="300" class="service-box" id="customerSegmentation">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -145,7 +140,7 @@
              <p>Segmentação de Clientes</p>
           </div>
         </div>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="150" class="service-box" id="ad-creation">
+        <div onclick="serviceClick(this)" data-parent="dataTraffic" data-clicked="false" data-value="150" class="service-box" id="adCreation">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -154,7 +149,7 @@
              <p>Criação de Anúncio</p>
           </div>
         </div>
-        <div onclick="serviceClick(this)" data-clicked="false" data-value="200" class="service-box" id="pixel-configuration">
+        <div onclick="serviceClick(this)" data-parent="dataTraffic" data-clicked="false" data-value="200" class="service-box" id="pixelConfiguration">
           <div class="check-box">
             <svg xmlns="http://www.w3.org/2000/svg"  fill="#4d519d" width="11.432px" height="8.525px" viewBox="0 0 11.432 8.525"> <path id="check" d="M3.883,11.918.167,8.2a.572.572,0,0,1,0-.808l.808-.808a.572.572,0,0,1,.808,0l2.5,2.5L9.648,3.727a.572.572,0,0,1,.808,0l.808.808a.572.572,0,0,1,0,.808L4.691,11.918a.572.572,0,0,1-.808,0Z" transform="translate(0 -3.56)" fill="#4d519d"/> </svg> 
           </div>
@@ -186,7 +181,7 @@
                   <input class="customer-email" placeholder="Seu e-mail de contato" type="text">
                 </div>
                   <textarea class="customer-message" placeholder="E enfim... sua mensagem! :D" type="text"></textarea>
-                <button class="button-contact-us" data-from="estimate" onclick="sendContactForm(this)" type="submit">Enviar</button>   
+                <button class="button-contact-us" data-from="estimate" onclick="new contactForm(this)" type="submit">Enviar</button>   
             </div>
           </div>  
     </div>
@@ -201,7 +196,7 @@
                         <h3 class="newsletter-title">Newsletter</h3>
                         <p class="newsletter-subtitle">Cadastre-se em nossa newsletter para receber em seu e-mail nossas novidades e dicas uteis para seu negócio</p>
                         <input class="newsletter-input" type="text" placeholder="Digite seu e-mail">
-                            <svg class="newsletter-svg" id="newsletter-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.829" height="36" viewBox="0 0 45.829 36">
+                            <svg style="cursor: pointer;" onclick="new contactForm(this)" class="newsletter-svg" data-from="newsletter" id="newsletter-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.829" height="36" viewBox="0 0 45.829 36">
                                 <defs>
                                     <linearGradient id="linear-gradient-newsletter" y1="0.5" x2="1.05" y2="0.5" gradientUnits="objectBoundingBox">
                                     <stop offset="0" stop-color="#4d9fd5"/>
@@ -230,18 +225,25 @@
                 <div class="card">
                     <div class="card-inner">
                         <p class="title-card">Contato</p>
-                        <div class="contact" style="margin-bottom: 32px;">
-                            <img src="assets/icons/telephone.svg" color="red" width="19" height="19" alt="">
-                            <p class="paragraph">+55 (83) 32272458</p>
-                        </div>
-                        <div class="contact" style="margin-bottom: 32px;">
-                            <img src="assets/icons/email.svg" color="red" width="19" height="19" alt=""> 
-                            <p class="paragraph">contato@hora-soft.com</p>
-                        </div>
-                        <div class="contact">
-                            <img src="assets/icons/instagram.svg" color="red" width="19" height="19" alt=""> 
-                            <p class="paragraph">hora-soft</p>
-                        </div>
+                        <a href="tel:+558332272458">
+                          <div class="contact" style="margin-bottom: 32px;">
+                              <img src="assets/icons/telephone.svg" color="red" width="19" height="19" alt="">
+                              <p class="paragraph">+55 (83) 32272458</p>
+                          </div>
+                        </a>
+                        <a href="mailto:contato@hora-soft.com">
+                          <div class="contact" style="margin-bottom: 32px;">
+                              <img src="assets/icons/email.svg" color="red" width="19" height="19" alt=""> 
+                              <p class="paragraph">contato@hora-soft.com</p>
+                          </div>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/horasoft_">
+                          <div class="contact">
+                              <img src="assets/icons/instagram.svg" color="red" width="19" height="19" alt=""> 
+                              <p class="paragraph">horasoft_</p>
+                          </div>
+                        </a>
+
                         <p class="title-card" style="margin-top: 32px;">Horário de atendimento</p>
                             <div class="working-time">
                                 <p class="paragraph">SEG-SEX</p>  <p class="paragraph">08:00 - 18:00</p>
@@ -256,92 +258,21 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 
     
 </body>
 </html>
-
+<script src="./js/serviceClick.js"></script>
+<script src="./js/showContactArea.js"></script>
+<script src="./js/contactForm.js"></script>
+<script src="./js/modal.js"></script>
 <script>
-  // window.onload = function()  {
-  //   var servicebox = document.querySelectorAll('.service-box');
-
-  //     for (var i=0; i<servicebox.length; i++) {
-
-  //         servicebox[i].setAttribute("data-clicked", true);
-  //         servicebox[i].style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
-  //         servicebox[i].style.border = "#4D519D 2px solid";
-  //         servicebox[i].children[0].children[0].style.display = "flex";
-  //     }
-  // }
-
-
   window.onload = function() {
+
    if (document.querySelector(".section-estimate").offsetHeight === 2800){
      document.querySelector(".card").style.top = "2932px";
    }
 
-  }
-function showContactArea(component) {
-  var contactArea = document.querySelector(".section-estimate-contact-us");
-  var sectionEstimate = document.querySelector(".section-estimate");
-  var button = document.querySelector(".button-contact-us");
-  component.style.display = "none";
-  contactArea.style.display = "flex";
-  if (document.querySelector(".section-estimate").offsetHeight === 1300){
-       sectionEstimate.style.height = "1800px";
-        window.scrollTo(0, 1800);
-   }
-
-   else if (document.querySelector(".section-estimate").offsetHeight === 3020) {
-    sectionEstimate.style.height = "3580px";
-    document.querySelector(".card").style.top = "3620px";
-    window.scrollTo(0, 2800)
-   }
-      
-   
- 
- 
-}
-
-
- function serviceClick(component) {
-   var isClicked = component.getAttribute("data-clicked"); 
-   var value = parseInt(component.getAttribute("data-value"));
-   var estimationValue = document.querySelector("#estimation-value");
-   var finalValue = document.querySelector("#final-estimated-price");
-
-   component.setAttribute("data-clicked", true); 
-
-
-   if (isClicked === "true") {
-    component.style.boxShadow = "0 1px 3px rgb(77, 81, 157), 0 1px 2px rgb(77, 81, 157)";
-    component.style.border = "none";
-    component.children[0].children[0].style.display = "none";
-    var filter = estimationValue.textContent.replace('.','').replace(',','.');
-    var unformatedValue = `${parseInt(filter) - value}`;
-    estimationValue.textContent = parseInt(unformatedValue).toLocaleString('pt-br', {minimumFractionDigits: 2});
-    finalValue.textContent = parseInt(unformatedValue *  50 / 100).toLocaleString('pt-br', {minimumFractionDigits: 2});
-
-    component.setAttribute("data-clicked", false);
-   }
-   else {
-    component.style.boxShadow = "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)";
-    component.style.border = "#4D519D 2px solid";
-    component.children[0].children[0].style.display = "flex";
-    var filter = estimationValue.textContent.replace('.','').replace(',','.');
-    var unformatedValue = `${parseInt(filter) + value}`;
-    estimationValue.textContent = parseInt(unformatedValue).toLocaleString('pt-br', {minimumFractionDigits: 2});
-    finalValue.textContent = parseInt(unformatedValue *  50 / 100).toLocaleString('pt-br', {minimumFractionDigits: 2});
-
-   }
-
-
- 
-
-   
-
-
- }
-  
+  }  
 </script>

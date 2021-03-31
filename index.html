@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1068,7 +1068,7 @@
                   <input class="customer-email" placeholder="Seu e-mail de contato" type="text">
                 </div>
                   <textarea class="customer-message" placeholder="E enfim... sua mensagem! :D" type="text"></textarea>
-                <button class="button-contact-us" data-from="contact" type="submit" onclick="sendContactForm(this)">Enviar</button>   
+                <button class="button-contact-us" data-from="contact" type="submit" onclick="new contactForm()">Enviar</button>   
             </div>
           </div>
         </section>
@@ -1083,7 +1083,7 @@
                         <h3 class="newsletter-title">Newsletter</h3>
                         <p class="newsletter-subtitle">Cadastre-se em nossa newsletter para receber em seu e-mail nossas novidades e dicas uteis para seu negócio</p>
                         <input class="newsletter-input" type="text" placeholder="Digite seu e-mail">
-                            <svg style="cursor: pointer;" onclick="sendContactForm(this)" class="newsletter-svg" data-from="newsletter" id="newsletter-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.829" height="36" viewBox="0 0 45.829 36">
+                            <svg style="cursor: pointer;" onclick="new contactForm(this)" class="newsletter-svg" data-from="newsletter" id="newsletter-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.829" height="36" viewBox="0 0 45.829 36">
                                 <defs>
                                     <linearGradient id="linear-gradient-newsletter" y1="0.5" x2="1.05" y2="0.5" gradientUnits="objectBoundingBox">
                                     <stop offset="0" stop-color="#4d9fd5"/>
@@ -1112,18 +1112,25 @@
                 <div class="card">
                     <div class="card-inner">
                         <p class="title-card">Contato</p>
-                        <div class="contact" style="margin-bottom: 32px;">
-                            <img src="assets/icons/telephone.svg" color="red" width="19" height="19" alt="">
-                            <p class="paragraph">+55 (83) 32272458</p>
-                        </div>
-                        <div class="contact" style="margin-bottom: 32px;">
-                            <img src="assets/icons/email.svg" color="red" width="19" height="19" alt=""> 
-                            <p class="paragraph">contato@hora-soft.com</p>
-                        </div>
-                        <div class="contact">
-                            <img src="assets/icons/instagram.svg" color="red" width="19" height="19" alt=""> 
-                            <p class="paragraph">hora-soft</p>
-                        </div>
+                        <a href="tel:+558332272458">
+                          <div class="contact" style="margin-bottom: 32px;">
+                              <img src="assets/icons/telephone.svg" color="red" width="19" height="19" alt="">
+                              <p class="paragraph">+55 (83) 32272458</p>
+                          </div>
+                        </a>
+                        <a href="mailto:contato@hora-soft.com">
+                          <div class="contact" style="margin-bottom: 32px;">
+                              <img src="assets/icons/email.svg" color="red" width="19" height="19" alt=""> 
+                              <p class="paragraph">contato@hora-soft.com</p>
+                          </div>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/horasoft_">
+                          <div class="contact">
+                              <img src="assets/icons/instagram.svg" color="red" width="19" height="19" alt=""> 
+                              <p class="paragraph">horasoft_</p>
+                          </div>
+                        </a>
+
                         <p class="title-card" style="margin-top: 32px;">Horário de atendimento</p>
                             <div class="working-time">
                                 <p class="paragraph">SEG-SEX</p>  <p class="paragraph">08:00 - 18:00</p>
@@ -1145,111 +1152,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
     <script src="./js/tilt.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/contactForm.js"></script>
+    <script src="./js/scrollEffect.js"></script>
+    <script src="./js/toggleMenu.js"></script>
     <link rel="stylesheet" href="css/animations.css">
-<script>
- async function sendContactForm(button) {
-    var name = document.querySelector('.customer-name').value;
-    var email = document.querySelector('.customer-email').value;
-    var message = document.querySelector('.customer-message').value;
-
-    var client = {
-      to: `${name} <${email}>, Hora-Soft <michel@hora-soft.com>`,
-      name: name,
-      email: email,
-      message: message ,
-      subject: 'Obrigado pelo contato!',
-      template: 'partials/contact',
-      context: {
-        client: name
-          }   
-    } 
-
-    var xhr = new XMLHttpRequest();
-      xhr.open("POST", "https://api.hora-soft.com/" , true);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-       await xhr.send(JSON.stringify({
-          client
-      }));
-    
-    xhr.onerror = function () {
-      const dialog =  new ConfirmDialog({
-            trueButtonText: "Beleza!",
-            falseButtonText: undefined,
-            questionText: "Estamos passando por manutenções, tente novamente mais tarde. :(",
-            isSuccess: false,
-          });
-          dialog.confirm();
-    }
-      
-      xhr.onload = function () {
-        if (xhr.status === 200) {
-          const dialog =  new ConfirmDialog({
-            trueButtonText: "Beleza!",
-            falseButtonText: undefined,
-            questionText: "Formulário enviado, em breve entraremos em contato por e-mail!",
-            isSuccess: true,
-          });
-          dialog.confirm();
-        }
-
-        else if (xhr.status === 400) {
-          const dialog =  new ConfirmDialog({
-            trueButtonText: "Beleza!",
-            falseButtonText: undefined,
-            questionText: "Verifique os dados inseridos e tente novamente!",
-            isSuccess: false,
-          });
-          dialog.confirm();
-        }    
-      }
-  }
-
-
-
-  let menuSection = document.querySelectorAll('.navbar ul li');
-
-    window.onscroll = (()=> {
-  let mainSection = document.querySelectorAll('main section');
-
-  mainSection.forEach((v,i)=> {
-    let rect = v.getBoundingClientRect().y
-    if(rect < window.innerHeight-400){
-      menuSection.forEach(v=> v.classList.remove('active'))
-      menuSection[i].classList.add('active')
-    }
-  })
-})
-
-
-
-    window.addEventListener("scroll", function() { 
-      var header = document.querySelector("header");
-      header.classList.toggle("sticky",   window.scrollY > 0);
-        
-    })
-
-
+<script> 
+if (window.innerWidth > 500) {
   	VanillaTilt.init(document.querySelector(".column-2"), {
 		max: 5,
 		speed: 20
 	});
-
-
- 
-
-  function toggleMenu() {
-     const isChecked = document.getElementById("btn-menu-cellphone").checked;
-      if (isChecked) {
-        document.getElementById("menu").style.display = "flex"
-        document.querySelector(".logo").style.marginTop = "20px"
-        document.getElementById("menuToggle").style.padding = "10px 0px 90px 32px";
-      }
-      else {
-         document.getElementById("menu").style.display = "none"
-         document.querySelector(".logo").style.marginTop = "8px"
-         document.getElementById("menuToggle").style.padding = "10px 0px 10px 0px";
-      }
-     
-  }
+}
   
 </script>
