@@ -25,7 +25,7 @@ class contactForm {
     if (this.from !== "newsletter") {
       const client = await this.createClient(this.from);
       const xhr = new XMLHttpRequest();
-      xhr.open("POST", "http://localhost:3333/mail/contact", true);
+      xhr.open("POST", "https:/api.hora-soft.com/mail/contact", true);
       xhr.setRequestHeader("Content-Type", "application/json");
       await xhr.send(
         JSON.stringify({
@@ -70,7 +70,7 @@ class contactForm {
       console.log("é pra newsleter");
       const client = await this.createClient(this.from);
       const xhr = new XMLHttpRequest();
-      xhr.open("POST", "http://localhost:3333/mail/newsletter", true);
+      xhr.open("POST", "https:/api.hora-soft.com/mail/newsletter", true);
       xhr.setRequestHeader("Content-Type", "application/json");
       await xhr.send(
         JSON.stringify({
