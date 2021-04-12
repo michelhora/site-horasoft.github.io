@@ -21,8 +21,8 @@ class ConfirmDialog {
     const icon = document.createElement("img");
     console.log(this.isSuccess);
     icon.src = this.isSuccess
-      ? "http://hora-soft.com/assets/success-icon.svg"
-      : "http://hora-soft.com/assets/failure-icon.svg";
+      ? "/assets/success-icon.svg"
+      : "/assets/failure-icon.svg";
     icon.width = 50;
     icon.height = 50;
     this.dialog.appendChild(icon);
